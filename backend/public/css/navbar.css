@@ -1,0 +1,29 @@
+html,
+body{
+    height: 100%;
+    font-size: 1rem;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+.gradient{
+    background: rgb(2,0,36);
+    background: linear-gradient(25deg, rgba(2,0,36,1) 0%, rgba(50,224,127,1) 0%, rgba(0,144,255,1) 100%);
+}
+.company{
+    font-size: 1rem;
+}
+
+.chashme{
+    width: 8rem;
+    height: 4rem;
+    border-radius: 1rem;
+}
+
+.icon{
+    font-size: 1rem;
+}
+.navbar-brand{
+    font-size:1rem;
+    color: black;
+}
