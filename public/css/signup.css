@@ -1,17 +1,16 @@
-/* * {box-sizing: border-box} */
 .form{
     width: 70%;
     margin: auto;
 }
+
 .checkin{
-    /* width: 300px; */
     height: 100px;
     padding: 50px;
     box-sizing: border-box;
     text-align: center;
 }
 
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=number]{
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -57,12 +56,13 @@ button:hover {
   width: 50%;
 }
 
-.container .Trees{
+.container .trees{
     text-align: center;
     max-width:100%;
     width:100%;
-    height:70%;
+    height:80%;
     border: none;
+    border-radius: 3rem;
 }
 
 .container {
@@ -82,17 +82,9 @@ button:hover {
 
 .clearfix .cancelbtn, .signupbtn{
     
-    padding:14px 30px;
-    margin-left: 5px;
-    border-radius: 3rem;
+  padding:14px 30px;
+  border-radius: 3rem;
 }
-
-
-
-
-
-
-
 
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
