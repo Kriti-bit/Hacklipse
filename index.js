@@ -22,6 +22,10 @@ app.get('/signup',(req,res)=>{
     res.render('signup');
 })
 
+app.get('/info',(req,res)=>{
+    res.render('info_guide');
+})
+
 app.listen(PORT,()=>{
     console.log('Listening to Port '+PORT);
 })
